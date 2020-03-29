@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>COVID-19 APP</title>
+</head>
+<body>
+    <!--Top Section-->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-danger display-3 my-4">COVID-19 QUIZ APP</h2>
+        </div>
+    </div>
+  <!-- Output the Score Here-->
+    <div class="result py-4 d-none bg-light text-center">
+     <div class="container lead">
+         <p>You scored <span class="text-primary display-4 p-3">0%</span>in your COVID-19 quiz test!</p>
+     </div>
+    </div>
+    <!--The Quiz Section-->
+    <div class="quiz py-4 bg-danger">
+        <div class="container">
+            <h2 class="my-5 text-white"><i>As the World Health Organisation continues to monitor
+                and respond to this outbreak, this quiz intends to enlighten and educate the user on the dreaded pandemic.</i>
+            
+            </h2>
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. What are Coronaviruses</p>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q1" value="A">
+                        <label class="form-check-label">A large family of viruses which may cause illness in animals or humans</label>
+                    </div>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">A virus that has got a cool name!</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2. What is COVID-19</p>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q2" value="A">
+                        <label class="form-check-label">A code name for a drug</label>
+                    </div>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">An infectious disease caused by the most recently discovered Coronavirus in Wuhan, China</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. What are the most common symptoms of COVID-19</p>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q3" value="A">
+                        <label class="form-check-label">Fever, tiredness and dry cough</label>
+                    </div>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label">Discoloration in the eyes and skin</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4. Other common symptoms of COVID-19 are</p>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q4" value="A">
+                        <label class="form-check-label">Diarrhoea, aches and pains, nasal congestions, sore throat and runny nose</label>
+                    </div>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q4" value="B">
+                        <label class="form-check-label">itchy skin, high threshold for pain</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">5. How long is the incubation period for COVID-19?</p>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q5" value="A">
+                        <label class="form-check-label">1-14 days,most commonly around 5 days </label>
+                    </div>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q5" value="B">
+                        <label class="form-check-label">1-3 days,most commonly on the second day</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">6. People can catch COVID-19 from others who have the Virus. But how does COVID-19 actually spread?</p>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q6" value="A">
+                        <label class="form-check-label">The disease is air-borne</label>
+                    </div>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q6" value="B">
+                        <label class="form-check-label">Contact with respiratory droplets of an infected person who coughs or exhales</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">7. Can COVID-19 be caught from a person who has no symptom?</p>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q7" value="A">
+                        <label class="form-check-label">Yes,The risk of contacting the disease from a non-infectious person is very high</label>
+                    </div>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q7" value="B">
+                        <label class="form-check-label">The risk is very low</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">8. What can I do to protect myself from this disease?</p>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q8" value="A">
+                        <label class="form-check-label">Wash your hands thoroughly and regularly with soap and water</label>
+                    </div>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q8" value="B">
+                        <label class="form-check-label">Use the chloroquine drug as prescribed by Donald Trump!</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">9.How else can I protect myself from the disease?</p>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q9" value="A">
+                        <label class="form-check-label">Do not worry, all is well!</label>
+                    </div>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q9" value="B">
+                        <label class="form-check-label">Maintain at least 1 metre(3 feet) distance between yourself and anyone who is coughing or sneezing</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">10.Should I wear a mask to protect myself?</p>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q10" value="A">
+                        <label class="form-check-label">Yes, wear one to protect yourself.</label>
+                    </div>
+                    <div class="form-check my-2 text-white-80">
+                        <input type="radio" name="q10" value="B">
+                        <label class="form-check-label">Only wear one if you have COVID-19 symptom or taking care of someone who may have the disease. Otherwise you are wasting the mask </label>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.12.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.12.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>
